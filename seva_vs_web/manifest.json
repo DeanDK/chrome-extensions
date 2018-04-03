@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "SEVA AGAIN THE WORLD",
+  "version": "0.1",
+  "web_accessible_resources": ["seva_img/*jpg"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["seva.js"]
+    }
+  ]
+}
